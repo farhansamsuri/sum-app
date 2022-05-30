@@ -10,7 +10,7 @@ const MainContainer = () => {
 
     const handleSum = (x, y) => {
 
-        const newState = Number(x) + Number(y);
+        const newState = parseInt(x) + parseInt(y);
         setAnswer(newState);
     }
     return (

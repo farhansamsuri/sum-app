@@ -1,4 +1,5 @@
 import '../App.css';
+import config from '../config/index';
 
 const DisplayAnswer = (props) => {
 
@@ -6,7 +7,8 @@ const DisplayAnswer = (props) => {
 
     return (
         <div className= 'displayAnswer'>
-        <h2>Answer : {finalAnswer}</h2>
+        <h2> Answer : {finalAnswer}</h2>
+        <div>BaseURL: {config.baseURL}</div>
         </div>
     )
 }

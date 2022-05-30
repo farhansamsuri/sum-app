@@ -6,7 +6,7 @@ import DisplayAnswer from "../components/DisplayAnswer";
 
 const MainContainer = () => {
 
-    const [answer, SetAnswer] = useState ('');
+    const [answer, setAnswer] = useState ('');
 
     const handleSum = (x, y) => {
 
